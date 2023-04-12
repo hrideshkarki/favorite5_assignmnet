@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Favorite 5</title>
+  </head>
+  <body>
+    <h1>My Top 5 Favorite Sports Figures</h1>
+    <ul>
+      {% for figure in figures %}
+      <li>{{ figure }}</li>
+      {% endfor %}
+    </ul>
+    <p><a href="/">Home</a></p>
+  </body>
+</html>
